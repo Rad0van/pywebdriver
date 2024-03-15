@@ -75,6 +75,13 @@ Point of Sale with PyWebDriver as a Proxy.
 
 # <a name="customers"></a>End-Users / Customers Section
 
+To utilize this you need to check the _IoT Box_ field in shop configuration
+and set the _IoT Box IP Address_ to where pywebdriver is running.
+
+If you want to utilize supported payment terminals through pywebdriver you
+need to install **pos_payment_terminal** module from  [OCA pos](https://github.com/OCA/pos)
+into your Odoo server.
+
 If you're interested by a feature that is not currently supported, please
 [contact our team](http://www.akretion.com) for a quotation.
 
